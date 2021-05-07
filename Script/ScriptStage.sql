@@ -197,5 +197,12 @@ constraint pk_Surveiller primary key (Matricule,idSalle,HeureDebutExam,HeureFinE
 
 go
 
-
-
+create table Utilisateur(
+login varchar(50) constraint pk_Utilisateur primary key,
+password varchar(50),
+Nom varchar(50),
+Prenom varchar(50),
+Email varchar(50),
+Validation bit,
+Hash varchar(200),
+);
