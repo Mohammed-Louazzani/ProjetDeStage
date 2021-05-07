@@ -203,6 +203,7 @@ password varchar(50),
 Nom varchar(50),
 Prenom varchar(50),
 Email varchar(50),
+typeUtilisateur varchar(50),
 Validation bit,
 Hash varchar(200),
 );
